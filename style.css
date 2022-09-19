@@ -1,0 +1,43 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+h4 {
+    margin: 10px 0px;
+}
+
+li {
+    margin: 5px 10px;
+}
+
+a {
+    position: relative;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    top: 20px;
+}
+
+.a2 {
+    display: none;
+}
+
+.a3 {
+    display: none;
+}
+
+@media screen and (max-width: 513px) {
+    a {
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
