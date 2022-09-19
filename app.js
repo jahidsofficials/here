@@ -13,5 +13,5 @@ download.addEventListener('click', () => {
             download1.style.display = "none";
             download2.style.display = "flex";
         }, 5000);
-    }, 25000);
+    }, 35000);
 })
